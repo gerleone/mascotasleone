@@ -31,7 +31,7 @@ img{
 
 /*---header/nav---*/
 
-.body{
+.grid-container{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 8em auto 8em; 
@@ -148,12 +148,6 @@ img{
 }
 
 /*--------Main perro y gato-------*/
-.bodyPG{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 8em 40em 8em;
-    background-color:#E0DDAA ;
-}
 
 .perroGato {
     display: flex;
@@ -393,63 +387,18 @@ button{
     width: 3.5em;
 }
 
-/*--------Media queries-----*/
+/*-----------------------------------Media queries----------------------------*/
 @media (max-width: 1310px) {
     /*-----Paseos------*/
-    .img1{
-        grid-area: img1;
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9{
         width: 20em;
         margin: 0.6em;
     }
-    .img2{
-        grid-area: img2;
-        width: 20em;
-        margin: 0.6em;
-    }
-    .img3{
-        grid-area: img3;
-        width: 20em;
-        margin: 0.6em;
-    }
-    .img4{
-        grid-area: img4;
-        width: 20em;
-        margin: 0.6em;
-    }
-    .img5{
-        grid-area: img5;
-        width: 20em;
-        margin: 0.6em;
-    }
-    .img6{
-        grid-area: img6;
-        width: 20em;
-        margin: 0.6em;
-    }
-    .img7{
-        grid-area: img7;
-        width: 20em;
-        margin: 0.6em;
-    }
-    .img8{
-        grid-area: img8;
-        width: 20em;
-        margin: 0.6em;
-    }
-    .img9{
-        grid-area: img9;
-        width: 20em;
-        margin: 0.6em;
-    }
-
 }
 @media (max-width: 1080px) {
-    body{
-        font-size: 13px;
-    }
     /*------menu mobile---------------------*/
     .menu ul li {
-        font-size: 7px;
+        font-size: 11px;
     }
     /*--------main mascotas------------------*/
     .main .mascotas div{
@@ -507,7 +456,7 @@ button{
 }
 @media (max-width: 768px) {
     body{
-        font-size: 10px;
+        font-size: 12px;
     }
     /*------menu mobile---------------------------*/
     .menu ul li {
@@ -537,11 +486,11 @@ button{
 }
 @media (max-width: 560px) {
     body{
-        font-size: 10px;
+        font-size: 11px;
     }
     /*------menu mobile----*/
     .menu ul li {
-        font-size: 7px;
+        font-size: 8px;
     }
     /*--------main mascotas-----*/
     .main .mascotas div{
@@ -582,11 +531,11 @@ button{
 }
 @media (max-width:431px){
     body{
-        font-size: 8px;
+        font-size: 9px;
     }
     /*------menu mobile----*/
     .menu ul li {
-        font-size: 6px;
+        font-size: 7px;
     }
 }
 @media (max-width: 360px) {
@@ -609,9 +558,7 @@ button{
         color: #000000;
     }
     /*----------Paseos------*/
-    .mainPaseos{
-        height: 100em;
-    }
+
     .galeria img{
         width: 20em;
     }
