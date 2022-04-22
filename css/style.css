@@ -447,19 +447,18 @@ button{
     body{
         font-size: 13px;
     }
-    /*------menu mobile----*/
+    /*------menu mobile---------------------*/
     .menu ul li {
         font-size: 7px;
     }
-    /*--------main mascotas-----*/
-
+    /*--------main mascotas------------------*/
     .main .mascotas div{
         flex-direction: column;    
     }
     #inframeLink{
         display: none;
     }
-    /*----main perro y gatos------*/
+    /*----main perro y gatos------------------*/
     .bodyPG{
         display: grid;
         grid-template-columns: 100%;
@@ -484,7 +483,7 @@ button{
         justify-content: space-between;
         align-items: center;
     }
-    /*----------Paseos------*/
+    /*----------Paseos--------------------------*/
     .galeria{
         grid-template-areas: 
             "img1 img2" 
@@ -495,7 +494,7 @@ button{
         grid-template-columns:1fr 1fr;
         grid-template-rows: repeat(5,1fr);
     }
-    /*------Formulario contacto----*/
+    /*------Formulario contacto-------------------*/
     .formulario{
         width:80%
     }
@@ -510,11 +509,11 @@ button{
     body{
         font-size: 10px;
     }
-    /*------menu mobile----*/
+    /*------menu mobile---------------------------*/
     .menu ul li {
         font-size: 7px;
     }
-    /*--------main mascotas-----*/
+    /*--------main mascotas-----------------------*/
     .main .mascotas div{
         flex-direction: column;    
     }
@@ -524,17 +523,6 @@ button{
     #inframeLink{
         display: inline;
         color: #000000;
-    }
-    /*----------Paseos------*/
-    .galeria{
-        grid-template-areas: 
-            "img1 img2" 
-            "img3 img4" 
-            "img5 img6" 
-            "img7 img8" 
-            "img9 .";
-        grid-template-columns:1fr 1fr;
-        grid-template-rows: repeat(5,1fr);
     }
     /*------Formulario contacto----*/
     .formulario{
@@ -600,20 +588,6 @@ button{
     .menu ul li {
         font-size: 6px;
     }
-    .galeria{
-        grid-template-areas: 
-        "img1"
-        "img2" 
-        "img3" 
-        "img4" 
-        "img5" 
-        "img6" 
-        "img7" 
-        "img8" 
-        "img9";
-        grid-template-columns:1fr;
-        grid-template-rows: repeat(9,1fr);
-    }
 }
 @media (max-width: 360px) {
     body{
@@ -629,7 +603,7 @@ button{
     }
     #inframe  {
         display: none;
-}
+    }
     #inframeLink{
         display: inline;
         color: #000000;
@@ -638,24 +612,9 @@ button{
     .mainPaseos{
         height: 100em;
     }
-    .galeria{
-        grid-template-areas: 
-        "img1"
-        "img2" 
-        "img3" 
-        "img4" 
-        "img5" 
-        "img6" 
-        "img7" 
-        "img8" 
-        "img9";
-    grid-template-columns:1fr;
-    grid-template-rows: repeat(5,1fr);
-    }
     .galeria img{
         width: 20em;
     }
-
     /*------Formulario contacto----*/
     .formulario{
         width:80%
@@ -666,4 +625,4 @@ button{
     .formulario h4{
         font-size: 9px;   
     }
-}
+}  
