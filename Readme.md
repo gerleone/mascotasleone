@@ -2,8 +2,6 @@
 
 # Mascotas
 
-
-
 ## DEMO
 
 Use the package manager [link](https://gerleone.github.io/mascotasleone/)
